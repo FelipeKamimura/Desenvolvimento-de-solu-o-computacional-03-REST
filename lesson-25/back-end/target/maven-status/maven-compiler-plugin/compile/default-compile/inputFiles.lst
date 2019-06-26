@@ -1,0 +1,15 @@
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dao\PaisDAO.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\servico\ServicoPais.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\servico\ServicoCliente.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dto\ClienteDTO.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\ProjectExampleApplication.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\excecao\NomeClienteJaExisteException.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dao\ClienteDAO.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\excecao\NomeClienteMenor5CaracteresException.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dao\ClienteDAO_OLD.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dao\PaisDAO_OLD.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dao\Cliente.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dao\Pais.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\negocio\ClienteNegocio.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\negocio\PaisNegocio.java
+D:\ARQUIVOS\Google Drive\UTFPR\7º SEMESTRE\arquitetura\dsc03-rest\Desenvolvimento-de-solu-o-computacional-03-REST\lesson-25\back-end\src\main\java\br\edu\utfpr\dto\PaisDTO.java
