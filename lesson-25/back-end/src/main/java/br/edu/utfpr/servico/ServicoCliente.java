@@ -20,36 +20,30 @@ import br.edu.utfpr.excecao.NomeClienteMenor5CaracteresException;
 
 @RestController
 public class ServicoCliente {
-    private List<PaisDTO> paises;
+
     private List<ClienteDTO> clientes;
+    private List<PaisDTO> paises;
 
     public ServicoCliente() {
-        paises = Stream.of(
-            PaisDTO.builder().id(1).nome("Brasil").sigla("BR").codigoTelefone(55).build(),
-            PaisDTO.builder().id(2).nome("Estados Unidos da América").sigla("EUA").codigoTelefone(33).build(),
-            PaisDTO.builder().id(3).nome("Reino Unido").sigla("RU").codigoTelefone(44).build()
-        ).collect(Collectors.toList());
+        paises = Stream
+                .of(PaisDTO.builder().id(1).nome("Brasil").sigla("BR").codigoTelefone(55).build(),
+                        PaisDTO.builder().id(2).nome("Estados Unidos da América").sigla("EUA").codigoTelefone(33)
+                                .build(),
+                        PaisDTO.builder().id(3).nome("Reino Unido").sigla("RU").codigoTelefone(44).build())
+                .collect(Collectors.toList());
 
         clientes = Stream.of(
-            ClienteDTO.builder().id(1).nome("Joao").idade(23).telefone("99999-9999").limiteCredito(2500.00).pais(paises.get(0)).build(),
-            ClienteDTO.builder().id(1).nome("Alice").idade(27).telefone("22222-2222").limiteCredito(3700.00).pais(
-                paises.get(1)).build(),
-            ClienteDTO.builder().id(1).nome("Kim").idade(33).telefone("55555-5555").limiteCredito(7800.00).pais(
-                paises.get(2)).build()
-        ).collect(Collectors.toList());
+                ClienteDTO.builder().id(1).nome("Joao").idade(23).telefone("99999-9999").limiteCredito(2500.00)
+                        .pais(paises.get(0)).build(),
+                ClienteDTO.builder().id(1).nome("Alice").idade(27).telefone("22222-2222").limiteCredito(3700.00)
+                        .pais(paises.get(1)).build(),
+                ClienteDTO.builder().id(1).nome("Kim").idade(33).telefone("55555-5555").limiteCredito(7800.00)
+                        .pais(paises.get(2)).build())
+                .collect(Collectors.toList());
     }
-
-    private int id;
-    private String nome;
-    private int idade;
-    private String telefone;
-    private double limiteCredito;
-    private PaisDTO pais;
 
     @GetMapping("/servico/cliente")
     public ResponseEntity<List<ClienteDTO>> listar() {
-        // public List<ClienteDTO> listar() {
-        // return clientes;
         return ResponseEntity.ok(clientes);
     }
 
