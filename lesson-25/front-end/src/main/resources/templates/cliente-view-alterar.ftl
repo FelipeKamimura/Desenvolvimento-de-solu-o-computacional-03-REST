@@ -27,7 +27,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <form action="/cliente/criar" method="post">
+                <form action="/cliente/alterar" method="post">
                     <div class="form-group">
                         <label for="nome">Nome:</label>
                         <input value="${(clienteAtual.nome)!}" name="nome" type="text" class="form-control" id="nome">
@@ -54,7 +54,8 @@
                         <select>    
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Criar</button>
+                    <input type="hidden" name="id" value="${(clienteAtual.id)!}"></input>
+                    <button type="submit" class="btn btn-primary">Alterar</button>
                 </form>
 
             </div>
